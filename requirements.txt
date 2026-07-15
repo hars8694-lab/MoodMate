@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+datasets
+plotly
+pandas
+python-dotenv
+anthropic
+pytest

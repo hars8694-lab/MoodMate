@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Large trained models - too big for GitHub (100 MB file limit)
+models/
+# Local database and cached datasets
+data/
+# API keys - never publish
+.env
