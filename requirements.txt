@@ -5,5 +5,5 @@ datasets
 plotly
 pandas
 python-dotenv
-anthropic
+groq
 pytest
