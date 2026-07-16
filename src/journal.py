@@ -1,6 +1,4 @@
 import sqlite3, json, datetime, os
-from turtle import pd
-from turtle import pd
 
 DB = os.path.join("data", "journal.db")
 
