@@ -37,8 +37,7 @@ User message
 - **Model:** `distilroberta-base` fine-tuned for multi-label classification (a message can be *sad and anxious at once*), trained for 2 epochs on a T4 GPU in Colab.
 - **Results on the GoEmotions test split** (threshold 0.3):
 
-<!-- FILL IN: replace X.XX with your real numbers from the notebook's evaluation cell -->
-| Metric | Score |
+"| Metric | Score |
 |---|---|
 | Micro F1 | 0.592 |
 | Macro F1 | 0.375 |
