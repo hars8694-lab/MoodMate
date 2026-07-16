@@ -4,7 +4,8 @@
 
  **Live demo:** https://moodmate-aolrddhkapglkkpzovxhgf.streamlit.app/
 
-**Work Demo
+**Work Demo:**
+
 ![Chat screenshot](assets/chat.png)
 ![Mood dashboard](assets/dashboard.png)
 
@@ -12,7 +13,7 @@
 
 ## Why this exists
 
-Many people especially the one's who struggle to verbalize what they feel, even to themselves. MoodMate doesn't ask you to explain your emotions; it detects them from what you naturally type, responds with validation instead of advice, and quietly builds a picture of your emotional patterns over time that you can see on a dashboard.
+Many people especially those who struggle to verbalize what they feel, even to themselves find it hard to open up. MoodMate doesn't ask you to explain your emotions; it detects them from what you naturally type, responds with validation instead of advice, and quietly builds a picture of your emotional patterns over time that you can see on a dashboard.
 
 ## How it works
 
@@ -53,7 +54,7 @@ Python · Hugging Face Transformers · PyTorch · Streamlit · Plotly · SQLite 
 ## Run it locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MoodMate.git
+git clone https://github.com/hars8694-lab/MoodMate.git
 cd MoodMate
 python -m venv .venv
 .venv\Scripts\activate            # Windows  (Mac/Linux: source .venv/bin/activate)
@@ -66,7 +67,7 @@ Run the tests: `python -m pytest`
 
 ## Reproducing the emotion model
 
-As the fine-tuned model (~300 MB) is not stored in this repo due to GitHub's 100 MB file limit. Two options:
+The fine-tuned model (~300 MB) is not stored in this repo due to GitHub's 100 MB file limit. Two options:
 
 1. **Recreate it:** open `notebooks/finetune_goemotions.ipynb` in Google Colab (T4 GPU runtime), run all cells (~25 min), download the resulting folder to `models/moodmate-emotion-model/`.
 2. **Or do nothing:** the app automatically falls back to the public pretrained model `j-hartmann/emotion-english-distilroberta-base` when no local model is found.
