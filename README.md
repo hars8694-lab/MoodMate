@@ -1,4 +1,5 @@
-# MoodMate — an emotion-aware companion
+# MoodMate
+# 🌤 MoodMate — an emotion-aware AI companion
 
 **MoodMate detects the emotion behind your words using a transformer fine-tuned on Google's GoEmotions dataset, and responds like a friend who actually listens — built for people who find it hard to open up.**
 
